@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #FEFFD3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #b3e5fc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sale {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-btn {
+    background-color: #FEFFD3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.terms {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.terms a {
+    color: #0277bd;
+    text-decoration: none;
+}
+
+.hero-image img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+/* Trusted Section */
+.trusted {
+    background-color: #FEFFD3;
+    text-align: center;
+    padding: 10px;
+}
+
+.trusted-logos img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 30%;
+}
+
+.testimonial h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.user {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.user span {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 20px;
+}
+
+.join-now {
+    background-color: #FEFFD3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #0277bd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
