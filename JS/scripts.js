@@ -1,5 +1,3 @@
-// scripts.js
-
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form[name="frm"]');
     form.addEventListener('submit', (event) => {
@@ -15,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
             alert('Por favor, ingrese un email válido');
         } else {
-            event.preventDefault(); // Evitar el envío del formulario real para mostrar el mensaje
+            event.preventDefault();
             alert('¡Gracias por unirte a MindWell!');
-            // Aquí puedes añadir más lógica, como redirigir o limpiar el formulario
+            
         }
     });
 
