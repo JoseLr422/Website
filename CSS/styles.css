@@ -71,6 +71,11 @@ nav a {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    color: #333;
+}
+
+.signup-btn:hover {
+    background-color: #fff5d0;
 }
 
 .terms {
@@ -179,7 +184,7 @@ nav a {
 }
 
 #form input[type="submit"].btn:hover {
-    background-color: #e3f2fd;
+    background-color: #fff5d0;
 }
 
 /* Footer */
@@ -187,6 +192,20 @@ footer {
     background-color: #e3f2fd;
     text-align: center;
     padding: 20px;
+}
+
+.join-now {
+    background-color: #FEFFD3; /* Cambiar el fondo del botón a amarillo */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.join-now:hover {
+    background-color: #fff5d0;
 }
 
 .footer-links a {
@@ -199,3 +218,27 @@ footer {
     text-decoration: underline;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
