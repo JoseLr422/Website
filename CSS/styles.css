@@ -129,56 +129,6 @@ nav a {
     color: #666;
 }
 
-/* Footer */
-footer {
-    background-color: #e3f2fd;
-    text-align: center;
-    padding: 20px;
-}
-
-.join-now {
-    background-color: #FEFFD3;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-.footer-links a {
-    color: #0277bd;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .hero-text {
-        max-width: 100%;
-    }
-
-    .hero-image img {
-        width: 100%;
-    }
-
-    .testimonials {
-        flex-direction: column;
-    }
-
-    .testimonial {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-}
 /* Formulario de Inscripción */
 #inscripcion {
     margin: 20px auto;
@@ -230,3 +180,55 @@ footer {
 #form input[type="submit"].btn:hover {
     background-color: #005ea0;
 }
+
+/* Footer */
+footer {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 20px;
+}
+
+.join-now {
+    background-color: #FEFFD3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #0277bd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
