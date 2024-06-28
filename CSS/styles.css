@@ -133,7 +133,7 @@ nav a {
 #inscripcion {
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #e3f2fd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
@@ -169,7 +169,7 @@ nav a {
 }
 
 #form input[type="submit"].btn {
-    background-color: #e3f2fd;
+    background-color: #FFFFCF;
     color: white;
     padding: 10px 20px;
     border: none;
