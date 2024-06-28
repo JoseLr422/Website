@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const flastname = form.elements['flastname'].value;
         const femail = form.elements['femail'].value;
         const fphone = form.elements['fphone'].value;
-        const fcourse = form.elements['fcourse'].value;
+
 
         if (!fname || !flastname || !femail || !fphone) {
             event.preventDefault();
