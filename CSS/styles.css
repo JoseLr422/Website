@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #FEFFD3; /* Cambiar el fondo del cuerpo a amarillo */
 }
 
 header {
@@ -66,7 +66,7 @@ nav a {
 }
 
 .signup-btn {
-    background-color: #FEFFD3;
+    background-color: #FEFFD3; /* Botón REGÍSTRATE GRATIS */
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -133,7 +133,7 @@ nav a {
 #inscripcion {
     margin: 20px auto;
     padding: 20px;
-    background-color: #b3e5fc; /* Cambiar el color de fondo del formulario */
+    background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
@@ -169,12 +169,13 @@ nav a {
 }
 
 #form input[type="submit"].btn {
-    background-color: #e3f2fd;
-    color: white;
-    padding: 10px 20px;
+    background-color: #FEFFD3; /* Cambiar el fondo del botón a amarillo */
     border: none;
+    padding: 10px 20px;
+    font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
+    color: #333;
 }
 
 #form input[type="submit"].btn:hover {
@@ -198,27 +199,3 @@ footer {
     text-decoration: underline;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .hero-text {
-        max-width: 100%;
-    }
-
-    .hero-image img {
-        width: 100%;
-    }
-
-    .testimonials {
-        flex-direction: column;
-    }
-
-    .testimonial {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-}
